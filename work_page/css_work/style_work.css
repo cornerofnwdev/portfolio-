@@ -1,0 +1,324 @@
+
+.mainContentWork{
+	width: 100%;
+	font-size: 14px;
+	font-family: 'Futura', sans-serif;
+	overflow: hidden;
+	position: relative;
+}
+.welcomeContainer{
+	background-color: #B8D6E0;
+
+}
+.thumbnail{
+	background-color: #B8D6E0;
+	border: none;
+	display: block;
+}
+.thumbnail1{
+	background-color: white;
+	border: none;
+	display: block;
+}
+.button{
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	background-color: #637175;
+	border-radius: 5px;
+	width: 100px;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 2px solid white;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	padding-top: 10px;
+}
+/* ______BELOW IS THE STYLING FOR THE FOOTER_______*/
+.footer{
+	height: 53px;
+	width: 100%;
+	background-color: white;
+	position: relative;
+	display: block;
+	z-index: 999;
+}
+.footer-Wrapper{
+	height: 30px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+/*	border-top: 1px solid grey;*/
+}
+.footerMenu{
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	width: 250px;
+	border-top: 4px dotted grey;
+}
+.gitHub, .linkedIn, .ohHello{
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	width: 30px;
+	margin: 0 auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 29px;
+	margin-top: 15px;
+	opacity: .6;
+}
+.linkedIn:hover,.ohHello:hover, .gitHub:hover{
+	opacity: 1;
+	transform:scale(1.2);
+}
+/*____END OF FOOTER STYLING____*/
+header{
+	width: 100%;
+	height: 60px;
+	background-color: #B8D6E0;;
+	color: white;
+	z-index: 999;
+	position: fixed;
+	display: block;
+}
+.headerLogo{
+	float: left;
+	position: relative;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	cursor: pointer;
+}
+.headroom img{
+	max-width: 60px;
+	left: 15px;
+	position: relative;
+}
+.aboutButton, .workButton, .contactButton{
+	height: 45px;
+	font-family: "Acme";
+	font-size: 12px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	margin-right: 10px;
+	float: right;
+	color: #25363d;
+	cursor: pointer;
+	left: -10px;
+}
+h1{
+	padding-bottom: 30px;
+}
+.workWelcome{
+	max-width: 1060px;
+	background-color: #B8D6E0;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	z-index: 99;
+}
+.work1-Wrapper{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	background-color:  #B8D6E0;
+}
+.workIntro{
+	height: 400px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	background-color: white;
+}
+.workIntro p{
+	padding-top: 25px;
+	max-width: 350px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+h4{
+	color:  #446171;
+}
+.work1-Content, .introContent{
+	width: 100%;
+	margin: 0 auto;
+	/*margin-top: 15px;*/
+	position: relative;
+	display: block;
+	text-align: center;
+	padding-top: 15px;
+	letter-spacing: 2px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+/*____BELOW IS THE STYLING ALTERATIONS FOR THE WRAPPERS AND CONTENTS______*/
+.work1-Wrapper{
+	background-color: #B8D6E0;
+}
+.w1Footer{
+	display: block;
+	width: 350px;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	border-bottom: 4px dotted grey;
+	z-index: 99;
+}
+.descW1{
+	margin: 0 auto;
+	display: block;
+	position: relative;	
+	z-index: 9;
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 25px;	
+}
+/*____STYLING FOR CONTACT SECTION_____*/
+.contact-Wrapper{
+	width: 100%;
+	height: 600px;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	background-color: white;
+}
+.contactTitle{
+	height: 75px;
+	top: 25px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 14px;
+	font-family:'Futura', cursive;
+	color: black;
+	margin-bottom: 100px;
+	letter-spacing: 2px;
+	padding-right: 250px;
+	padding-left: 250px;
+}
+.contactTitle p{
+	padding-right: 100px;
+	padding-left: 100px;
+}
+.letterButton{
+	max-width: 175px;
+	display: block;
+	margin: 0 auto;
+	height: 80px;
+	position: relative;
+	color: white; 
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	margin-top: 50px;
+}
+.nateMail{
+	position: relative;
+	display: block;
+	height: 100px;
+	z-index: 99;
+	margin: 0 auto;
+	max-width: 400px;
+	margin-top: 50px;
+}
+.contactTitle p{
+	padding-top: 20px;
+}
+.contactTitle1{
+	line-height: 2;
+	font-family: 'Futura', cursive;
+	text-align: center;
+	position: relative;
+	display: block;
+}
+.contactTitle1 h1{
+	padding-bottom: 0px;
+
+}
+.introContent img{
+	max-width: 130px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+/*
+_________KEEP ALL _________________
+      
+      MEDIA QUERIES 
+
+__________BELOW____________________
+    */
+
+@media only screen and (max-width: 980px) {
+	/*.contact-Wrapper{
+		height: 610px;
+	}*/
+	.contact-Title, .work1-Content, .work2-Content, .project1-Content, .project2-Content, .introContent{
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	@media only screen and (max-width: 780px) {
+		.contactTitle, .work1-Content, .introContent{
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+		.w1Footer{
+			width: 275px;
+		}
+	}
+	@media only screen and (max-width: 520px){
+		.introContent img{
+			max-width: 100px;
+		}
+		.letterButton img{
+			max-width: 125px;
+			position: relative;
+			display: block;
+			margin: 0 auto;
+		}
+		.mainContentWork{
+			font-size: 13px;
+		}
+		.contact-Wrapper{
+			height: 670px;
+			padding-top: 20px;
+		}
+		header{
+			height: 45px;
+		}
+		.headerLogo{
+			height: 50px;
+			width: 50px;
+		}
+		.aboutButton h3, .workButton h3, .contactButton h3{
+			font-size: 14px;
+		}
+		.descW1{
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		.work1-Content,.introContent{
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+		.contactTitle{
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.w1Footer{
+			width: 175px;
+		}
+	}

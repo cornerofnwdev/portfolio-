@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 199 100" style="enable-background:new 0 0 199 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E2C271;stroke:#000000;stroke-miterlimit:10;}
+	.st1{stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:#C1272D;}
+	.st4{fill:#8C1E26;}
+	.st5{font-family:'Apple-Chancery';}
+	.st6{font-size:12.6392px;}
+</style>
+<g>
+	<rect x="0.5" y="0.5" class="st0" width="198" height="99"/>
+	<path class="st1" d="M198,1v98H1V1H198 M199,0H0v100h199V0L199,0z"/>
+</g>
+<line class="st2" x1="0.5" y1="0.5" x2="0" y2="100"/>
+<polygon class="st0" points="99.5,65 2.5,0.5 196.5,0.5 "/>
+<circle class="st3" cx="99.5" cy="63.5" r="9.5"/>
+<text transform="matrix(0.9574 0 0 1 91.9995 68.3623)" class="st4 st5 st6">N</text>
+</svg>

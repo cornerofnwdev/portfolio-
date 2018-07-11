@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 651 373" style="enable-background:new 0 0 651 373;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#CCCCCC;}
+	.st1{fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+	.st2{fill:#FDFDFF;}
+	.st3{fill:#070707;}
+	.st4{fill:#FFFFFF;stroke:#B3B3B3;stroke-miterlimit:10;}
+</style>
+<title>Artboard 1</title>
+<g id="Layer_2">
+	<path class="st0" d="M167.9,4h457.3c11.6,0.1,20.9,9.5,20.9,21.1c0,0,0,0.1,0,0.1v313.6c0.1,11.6-9.2,21.1-20.8,21.2
+		c0,0-0.1,0-0.1,0H167.9c-11.6-0.1-20.9-9.5-20.9-21.1c0,0,0-0.1,0-0.1V25.2C146.9,13.6,156.2,4.1,167.9,4C167.8,4,167.8,4,167.9,4z
+		"/>
+	<rect x="176" y="30" width="444" height="307"/>
+	<circle cx="395.5" cy="16.5" r="2.5"/>
+	<path class="st1" d="M163.5,8.5h466c6.7,0.1,12.1,5.5,12,12.2v324c0.1,6.7-5.3,12.2-12,12.2h-466c-6.7-0.1-12.1-5.5-12-12.2v-324
+		C151.4,14,156.8,8.6,163.5,8.5z"/>
+	
+		<image style="overflow:visible;enable-background:new    ;" width="500" height="312" xlink:href="DF8AFEE0EAD51735.png"  transform="matrix(0.88 0 0 0.97 177 32)">
+	</image>
+	<g id="cellphone">
+		<g id="cell_phone">
+			<ellipse transform="matrix(1 -2.967042e-03 2.967042e-03 1 -0.9315 0.8463)" cx="284.8" cy="314.4" rx="1.8" ry="1.8"/>
+			<path class="st2" d="M24.3,230h242.6c10.3,0,18.7,8.4,18.7,18.7v97.6c0,10.3-8.4,18.7-18.7,18.7H24.3c-10.3,0-18.7-8.4-18.7-18.7
+				v-97.6C5.5,238.4,13.9,230,24.3,230z"/>
+			
+				<rect x="33.5" y="239.5" transform="matrix(1 -2.967042e-03 2.967042e-03 1 -0.8777 0.4374)" class="st3" width="227" height="113"/>
+			
+				<ellipse transform="matrix(1 -2.967042e-03 2.967042e-03 1 -0.886 6.280761e-02)" class="st4" cx="20.7" cy="298.6" rx="8.3" ry="8.8"/>
+			<path d="M271.5,287.1l0.1,19c0,0.6-0.4,1-1,1l0,0c-0.6,0-1-0.4-1-1l-0.1-19c0-0.6,0.4-1,1-1l0,0
+				C271,286.1,271.5,286.6,271.5,287.1z"/>
+			<ellipse transform="matrix(1 -2.967042e-03 2.967042e-03 1 -0.833 0.8036)" cx="270.4" cy="281.1" rx="1" ry="1"/>
+			<ellipse transform="matrix(1 -2.967042e-03 2.967042e-03 1 -0.8774 0.8276)" cx="278.5" cy="296.1" rx="1.5" ry="1.5"/>
+		</g>
+		
+			<image style="overflow:visible;enable-background:new    ;" width="300" height="170" xlink:href="DF8AFEE0EAD51737.png"  transform="matrix(0.75 0 0 0.66 34 240)">
+		</image>
+	</g>
+</g>
+</svg>

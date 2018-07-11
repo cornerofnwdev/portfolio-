@@ -1,0 +1,143 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110035401-1"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110035401-1');
+</script>
+ <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Bangers|Chewy|Cabin|Futura|Acme|Horizon|Gloria+Hallelujah" rel="stylesheet">
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<title>Nate Walker Web Development</title>
+<meta name="description" content="Based in Philadelphia PA, Nate Walker is a freelance web developer. "/>
+<meta name="keywords" content="freelance, web, development, design, HTML, CSS, projects, JavaScript, jQuery, AngularJS, Illustrator, Photoshop, version, Control, SEO, git, Philadelphia, PA, Wordpress, Drupal, DNN, CMS, Content, Management, System"/>
+<meta name="author" content=" Nate Walker"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+</head>
+<body ng-app="myApp">
+	<header class="headroom">
+		<div class="header_logo">
+			<a href="http://nates.website"><img src="images/headerLogo.svg" ></a>
+		</div>
+		<div class="aboutButton">
+			<a href='#welcome-Wrapper'><h3>About</h3></a>
+		</div>
+		<div class="workButton">
+			<a href="/work_page"><h3>Work</h3></a>
+		</div>
+		<div class="contactButton">
+			<a href="#workFooter"><h3>Contact</h3></a>
+		</div>
+	</header>
+	<div id="bodyContainer">
+		<div class="mainContent-Container">
+			<div class="welcomeContainer">
+				<div class="row"> 
+					<div class="welcomeTop">
+						<img src="images/welcomeTop.svg">
+					</div>
+				</div>
+				<div class="row">
+					<div class="welcome-Wrapper" id="welcome-Wrapper">
+						<img src="images/fartboard.svg">			
+					</div>
+				</div>
+			</div>
+			<div class="about-Wrapper" id="about-Wrapper">
+				<div class="row">
+					<div class="container">
+						<div class="nameTitle" id="nameTitle" ng-controller="MainController">
+							<h1>Hello,</h1>
+							<h3>I'm Nate.</h3>
+							<p>{{bio}}</p>
+							<div class="Logo">
+								<img ng-src="{{logo}}"/>
+							</div>
+							<div class="sub-aboutTitle">
+								<h6>Painter - Developer - Human</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="services-Wrapper" ng-controller="MainController">
+				<div class="container" ng-repeat="service in services">
+						<div class="serviceTitle">
+							<h1>{{ service.title }}</h1>
+							<h3> {{ service.subtitle }}</h3>
+							<p>{{ service.explain}}</p>	
+						</div>
+						<div class="html-Logo">
+							<img ng-src="{{ service.cover }}">
+						</div>
+				</div>
+			</div>
+			<div class="work-Wrapper" id="work-Wrapper" ng-Controller="MainController">
+				<div class="container">
+					<div class="workLogo">
+						<a href="/work_page"><img ng-src='{{work}}'></a>
+					</div>
+					<div class="workFooter" id="workFooter"></div>
+				</div>
+			</div>
+			<div class="contact-Wrapper" id="contact-Wrapper" ng-controller="MainController">
+				<div class="container" ng-repeat="contact in contacts">
+					<div class="contactTitle1">
+						<h1>{{ contact.title }}</h1>
+						<h3>{{ contact.subtitle }}</h3>  
+						<p>{{ contact.explain }}</p>
+					</div>	
+					<div class="letterButton">
+					<a href="mailto:newwalker20@gmail.com">
+						<img ng-src='{{contact.cover}}'/>
+					</a>
+					</div>
+					<div class="nateMail">
+						<img ng-src='{{contact.subcover}}'/>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="footer-Wrapper">
+					<div class="footerMenu" ng-controller="FooterController">
+						<div class="linkedIn" id="linkedIn">
+							<a href="https://www.linkedin.com/in/nathan-walker-471b9079/">
+								<img ng-src="{{linkedin}}"/>
+							</a>
+						</div>
+						<div class="ohHello">
+							<a href="mailto:newwalker20@gmail.com">
+							<img ng-src='{{footerlogo}}'/>
+							</a>
+						</div>
+						<div class="gitHub"> 
+							<a href="https://github.com/cornerofnwdev">
+								<img ng-src='{{github}}'/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modules -->
+    <script src="js/app.js"></script>
+    <!-- Controllers -->
+    <script src="js/controllers/MainController.js"></script>
+    <script src="js/controllers/FooterController.js"></script>
+    <!-- Directives -->
+    <script src="js/directives/headerinfo.js"></script>
+</body>
+</html>

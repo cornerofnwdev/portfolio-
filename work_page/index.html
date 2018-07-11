@@ -1,0 +1,122 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js_work/script_work.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	 <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Bangers|Chewy|Cabin|Futura|Acme|Horizon|Gloria+Hallelujah" rel="stylesheet">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css_work/style_work.css">
+	<link rel="shortcut icon" type="image/png" href="images_work/favicon.png"/>
+	<title>Work</title>	
+	<meta name="description" content="Freelance Web Developer and Designer living in Philadelphia PA."/>
+	<meta name="keywords" content="freelance, web, development, design, HTML, CSS, projects, JavaScript, jQuery, Illustrator, Photoshop, version, Control, SEO, git, Philadelphia, PA, Philly, CMS, Content Management Systems, SEO, Web Development, AngularJS"/>
+	<meta name="author" content=" Nate Walker"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body ng-app="myApp">
+	<header class="headroom">
+		<div class="headerLogo">
+			<a href="http://nates.website">
+				<img src="images_work/headerLogo.svg">
+			</a>
+		</div>
+		<div class="aboutButton">
+			<a href="../#welcome-Wrapper">
+				<h3>About</h3>
+			</a>
+		</div>
+		<div class="workButton">
+			 <a href="index.html">
+				<h3>Work</h3>
+			</a>
+		</div>
+		<div class="contactButton"> 
+		<a href="../#contact-Wrapper">
+			<h3>Contact</h3>
+		</a>
+		</div>
+	</header>
+	<div class="mainContentWork">
+		<div class="welcomeContainer">
+			<div class="row">
+				<div class="workWelcome">
+					<img src="images_work/work_Welcome22.svg">
+				</div>
+			</div>
+		</div>
+		<div class="workIntro">
+			<div class="introContent" ng-controller="MainController">
+				<img ng-src="{{logo}}"/>
+				<h3> {{ title }} </h3>
+				<p> {{ subtitle }} </p>
+			</div>
+		</div>
+		<div class="work1-Wrapper">
+			<div class="container">
+				<div class="work1-Content" ng-controller="MainController">
+					<div ng-repeat="project in projects" class="col-md-12">
+						<div class="thumbnail">
+							<img ng-src="{{ project.cover}}"/>
+							<p class="descW1">
+								{{  project.explain }}
+							</p>
+							<a href="{{project.path}}">
+							<p class="button">
+								View
+							</p>
+							</a>
+						</div>
+						<div class="w1Footer"></div>
+					</div>
+				</div>
+			</div>
+		</div> 
+		<div class="contact-Wrapper" id="contact-Wrapper" ng-controller="MainController">
+			<div class="contactTitle1">
+					<h1> {{ contacttitle }} </h1>
+					<h3> {{ contactSub }} </h3>
+			</div>	
+			<div class="contactTitle" id="contactTitle">
+				<p> {{  contactMessage }}</p>
+				<div class="letterButton"> 
+					<a href="mailto:newwalker20@gmail.com">
+						<img ng-src='{{letter}}'/>
+					</a>
+				</div>
+				<div class="nateMail">
+				 	<img ng-src='{{natemail}}'> 
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+				<div class="row">
+					<div class="footer-Wrapper">
+						<div class="footerMenu">
+							<div class="linkedIn"> 
+								<a href="https://www.linkedin.com/in/nathan-walker-471b9079/">
+									<img src="images_work/linkedin2.svg"/>
+								</a>
+							</div>
+							<div class="ohHello"> 
+								<a href="mailto:newwalker20@gmail.com">
+									<img src="images_work/nateFooter2.svg"/>
+								</a>
+							</div>
+							<div class="gitHub"> 
+								<a href="https://github.com/cornerofnwdev"> 
+									<img src="images_work/githubFooter.svg"/>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+    <!-- Modules -->
+    <script src="js_work/app.js"></script>
+    <!-- Controllers -->
+    <script src="js_work/controllers/MainController.js"></script>
+</body>
+</html>
